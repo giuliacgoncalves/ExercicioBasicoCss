@@ -1,0 +1,89 @@
+body{
+    background-color: darksalmon;
+    margin: 0%;
+}
+
+.headerIndex{
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.containerMenuIndex{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    color: darksalmon;
+}
+
+.tituloSite{
+    width: 50%;
+    height: 50px;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navMenuIndex{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#navigate{
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.opcaoMenu{
+    width: 120px;
+    height: 2rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.opcaoMenu{
+    width: 125px;
+    height: 3rem;
+    font-size: 20px;
+    background-color: chocolate;
+    color: darksalmon;
+    border-radius: 10px;
+}
+
+.mainIndex{
+    width: 100vm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noticia{
+    width: 80%;
+    height: 500px;
+    background-color: chocolate;
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerIndex{
+    width: 100%;
+    height: 3rem;
+    margin-top: 50px;
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

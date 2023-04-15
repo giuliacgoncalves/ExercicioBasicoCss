@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+
+.containerBody{
+    background-color: aliceblue;
+}
+
+.containerHeader{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(163, 208, 248);
+    display: flex;
+    align-items: center;
+}
+
+.containerLogo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right; 
+}
+
+#tituloIndex{
+    color: rgb(28, 53, 163);
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.containerNav{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#navigate{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.classeNav{
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(194, 253, 234);
+}
+
+.containerMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noticia {
+    width: 65%;
+    height: 800px;
+    margin-top: 10vh;
+    background-color: #b3c5f8;
+  }
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin-top: 50px;
+    background-color: rgb(163, 208, 248);
+}
+
+.fraseAutor{
+    width: 10%;
+    font-size: 1rem;
+    font-weight: 700;
+}
